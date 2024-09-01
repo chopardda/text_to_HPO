@@ -2,7 +2,7 @@
 
 Welcome to the **Text to HPO Pipeline** project! This tool is designed to map free text descriptions of phenotypic abnormalities to Human Phenotype Ontology (HPO) terms, providing a standardized way to capture and analyze phenotypic data.
 
-> **⚠️ Warning:** This project is currently under development. The codebase is not yet complete, and key features are still being verified. The repository will be fully functional and publicly available soon. Please check back later for updates.
+> **⚠️ Warning:** This project is currently under development. The repository will be fully functional and publicly available soon. Please check back later for updates.
 
 <!--
 ## Table of Contents

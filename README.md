@@ -8,8 +8,9 @@ Welcome to the **Text to HPO Pipeline** project! This tool is designed to map fr
 The text to HPO Pipeline is a Python-based tool that enables the conversion of unstructured clinical descriptions into structured, standardized HPO terms.
 
 ## Installation
-Install metamap from https://github.com/AnthonyMRios/pymetamap
-Install pymetamap from https://github.com/AnthonyMRios/pymetamap
+Install metamap from https://github.com/AnthonyMRios/pymetamap.
+
+Install pymetamap from https://github.com/AnthonyMRios/pymetamap.
 
 ## Config
 To run `main.py`, the `text_hpo_mapping/config/config.yaml` file needs to be adapted:

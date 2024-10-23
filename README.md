@@ -4,6 +4,19 @@ Welcome to the **Text to HPO Pipeline** project! This tool is designed to map fr
 
 > **⚠️ Warning:** This project is currently under development. The repository will be fully functional and publicly available soon. Please check back later for updates.
 
+## Overview
+The text to HPO Pipeline is a Python-based tool that enables the conversion of unstructured clinical descriptions into structured, standardized HPO terms.
+
+## Config
+To run `main.py`, the `config.yaml` file needs to be adapted:
+
+`clinical_data_path` contains the path to the input data. A fake example is provided for illustration.
+
+`base_dir` must contain the base_dir of the metamap install (Note the other metamap settings might need to be adapted as well)
+
+`api_key` must be set to the user's private UMLS api key. Instruction on where to find the API key can be found here: https://documentation.uts.nlm.nih.gov/rest/authentication.html
+
+
 <!--
 ## Table of Contents
 

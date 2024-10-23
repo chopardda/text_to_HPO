@@ -1,0 +1,39 @@
+version: "3.5"
+
+clinical_data_path: "../data/fake_data.xlsx"
+
+# metamap settings
+metamap:
+  start_servers: true
+  port: 8066
+  base_dir : 'public_mm/'
+  bin_dir : "bin/metamap20"
+  pos_server_dir: "bin/skrmedpostctl"
+  wsd_server_dir : "bin/wsdserverctl"
+
+# umls settings
+base_uri : 'https://uts-ws.nlm.nih.gov'
+api_key : ''
+
+# visualization parameters
+visualization:
+  colors:
+    cui: "#D9C5B2"  # Color for CUIs
+    hpo: "#9CAF88"  # Color for HPOs (to be added later)
+    dropped_phenotype: "#F4C2C2"  # Color for dropped phenotypes
+    cui_semtype_colors:
+      sosy: "#FF9999"  # Sign or Symptom
+      fndg: "#A0C4FF"  # Finding
+      dsyn: "#A3BE8C"  # Disease or Syndrome
+      mobd: "#FFB74D"  # Mental or Behavioral Dysfunction
+      acab: "#FF6F61"  # Acquired Abnormality
+      anab: "#6B5B95"  # Anatomical Abnormality
+      comd: "#88B04B"  # Cell or Molecular Dysfunction
+      cgab: "#92A8D1"  # Congenital Abnormality
+      inpo: "#F7CAC9"  # Injury or Poisoning
+      neop: "#955251"  # Neoplastic Process
+      patf: "#B565A7"  # Pathologic Function
+
+  use_semtype_colors: true  # Flag to control whether to use semtype-specific colors
+
+output_path: "../output/"
